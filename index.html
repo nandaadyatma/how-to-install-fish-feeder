@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Install RekanIkan Fish Feeder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        img.responsive {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+
+        .note {
+            background: #eef6fc;
+            padding: 1rem;
+            border-left: 4px solid #2196f3;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 2rem;
+        }
+
+        ol {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>How to Install RekanIkan Fish Feeder</h1>
+
+            <img src="https://images.pexels.com/photos/1677116/pexels-photo-1677116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Aquarium" class="responsive" />
+     
+        <p>Jika ini adalah pertama kalinya Anda menggunakan fish feeder, proses instalasi mungkin terasa sedikit
+            membingungkan. Namun jangan khawatir, panduan ini akan membantu Anda langkah demi langkah untuk
+            menghubungkan alat fish feeder dengan aplikasi <strong>RekanIkan</strong> secara mudah dan cepat.</p>
+
+        <div class="note">
+            <strong>Sebelum memulai:</strong> Pastikan Anda telah mengunduh aplikasi RekanIkan melalui Google Play
+            Store.
+        </div>
+
+        <h2>Langkah 1: Sambungkan Alat ke Sumber Daya Listrik</h2>
+        <ol>
+            <li>Hubungkan kabel daya fish feeder ke stopkontak atau sumber listrik terdekat.</li>
+            <li>Pastikan area instalasi memiliki koneksi Wi-Fi yang stabil.</li>
+            <li>Saat alat dinyalakan, layar LCD akan otomatis menyala dan menampilkan status koneksi internet.</li>
+        </ol>
+
+        <br>
+        <hr>
+
+        <h2>Langkah 2: Hubungkan Fish Feeder ke Wi-Fi</h2>
+        <ol>
+            <li>Buka pengaturan Wi-Fi di perangkat Anda (smartphone, laptop, atau lainnya).</li>
+            <li>Temukan dan hubungkan ke jaringan Wi-Fi bernama <strong>ESP8266-MQTT</strong>.</li>
+            <li>Setelah terhubung, Anda akan diarahkan otomatis ke halaman pengaturan Wi-Fi (Wi-Fi Manager).</li>
+            <li>Masukkan:
+                <ul>
+                    <li>Nama jaringan (SSID) Wi-Fi rumah Anda</li>
+                    <li>Password Wi-Fi dengan benar</li>
+                </ul>
+            </li>
+            <li>Tekan tombol "Simpan" atau "Connect" pada halaman tersebut.</li>
+            <li>Jika koneksi berhasil, alat akan mengeluarkan bunyi <strong>“tet tet tet”</strong> sebagai tanda sudah
+                tersambung ke internet.</li>
+        </ol>
+
+        <br>
+        <hr>
+
+        <h2>Langkah 3: Daftarkan Alat di Aplikasi RekanIkan</h2>
+        <ol>
+            <li>Buka aplikasi <strong>RekanIkan</strong> dan lakukan registrasi atau login ke akun Anda.</li>
+            <li>Masuk ke menu <strong>Your Feeder</strong>.</li>
+            <li>Tekan tombol tambah “+” (floating button biru) untuk menambahkan alat baru.</li>
+            <li>Pilih salah satu metode:
+                <ul>
+                    <li><strong>Scan QR Code</strong> (direkomendasikan)</li>
+                    <li><strong>Masukkan ID Manual</strong></li>
+                </ul>
+            </li>
+            <li>Jika menggunakan ID manual, masukkan ID yang tertera pada alat secara manual.</li>
+            <li>Lengkapi data alat:
+                <ul>
+                    <li>Nama alat</li>
+                    <li>Deskripsi alat</li>
+                    <li>Zona waktu (timezone)</li>
+                    <li>Akuarium (opsional)</li>
+                </ul>
+            </li>
+            <li>Simpan data. Alat akan langsung muncul pada daftar feeder Anda di aplikasi.</li>
+        </ol>
+
+        <br>
+        <hr>
+
+        <h2>Langkah 4: Uji Coba Pemberian Pakan</h2>
+        <ol>
+            <li>Pastikan wadah pakan telah terisi.</li>
+            <li>Dari aplikasi, lakukan eksekusi pemberian pakan untuk menguji apakah alat bekerja dengan baik.</li>
+            <li>Periksa apakah pakan keluar sesuai instruksi dan perangkat merespons dengan normal.</li>
+        </ol>
+
+        <br>
+        <hr>
+
+        <h2>Penutup</h2>
+        <p>Selamat! Anda telah berhasil menginstal dan menghubungkan fish feeder dengan aplikasi RekanIkan. Kini Anda
+            dapat dengan mudah mengatur jadwal pemberian pakan otomatis dan memantau aktivitasnya langsung dari
+            smartphone Anda.</p>
+    </div>
+</body>
+
+</html>
